@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Class Slot</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h2>Welecome to Music Class</h2>
+        <form action="result.jsp" method="post">
+        Student Name <input type="text" name="student"/>
+        <label>Instrument</label>
+        <select id="instrument" name="instrument" required>
+            <option value="">-- Select instruments --</option>
+            <option value="Guitar">Guitar</option>
+            <option value="Keyboard">Keyboard</option>
+            <option value="Tabla">Tabla</option>
+            <option value="Fluet">Fluet</option>
+        </select>
+        <label>Day</label>
+        <select id="day" name="day" required>
+            <option value="">-- Select instruments --</option>
+            <option value="Mon">Monday</option>
+            <option value="Wed">Wednesday</option>
+            <option value="Fri">Friday</option>
+            <option value="Sat">Saturday</option>
+        </select>
+        <input type="submit" value="save" />
+        </form>
+    </body>
+</html>
