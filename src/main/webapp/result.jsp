@@ -44,6 +44,7 @@
 <h2>Saved! Music Class Slot Records</h2>
 <table>
     <tr>
+        <th>id</th>
         <th>Student</th>
         <th>Instrument</th>
         <th>Day</th>
